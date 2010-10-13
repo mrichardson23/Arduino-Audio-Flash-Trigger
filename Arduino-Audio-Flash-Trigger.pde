@@ -5,14 +5,14 @@
 	Camera must be in BULB mode for this to work.
 */
 
-#define BUTTON_PIN 10
+#define BUTTON_PIN 5
 #define CAM_TRIGGER_PIN 11
 #define FLASH_TRIGGER_PIN 12
 #define SENSOR_PIN 0
-#define LED_PIN 13
+#define LED_PIN 10
 #define STANDBY 0
 #define ACTIVE 1
-#define SENSOR_TRESHOLD 0
+#define SENSOR_THRESHOLD 0
 
 int mode = STANDBY;
 long flashDelayMS = 0;
